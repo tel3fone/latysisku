@@ -36,7 +36,7 @@ for (const defin of results) {
     <div>${defin["def"].replace(/\$(.*?)\$/g, (_, x) => temml.renderToString(x))}</div>` + (defin["notes"] ? `<div class="notes"><label>Notes:</label>${defin["notes"].replace(/\$(.*?)\$/g, (_, x) => temml.renderToString(x)).replace(/\{(.*?)\}/g, "<a href=\"?q=$1\">$1</a>")}</div></div>` : "")
 
 }} else {
-        document.getElementById("all").innerHTML = `could not find word <b>"${searchValue}"</b>.`
+        document.getElementById("all").innerHTML = searchValue ? `could not find word <b>"${searchValue}"</b>.` : "Welcome to <b>latsisku</b>! Search a word to see its definition."
 
 }
 
