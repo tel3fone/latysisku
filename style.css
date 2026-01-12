@@ -1,0 +1,93 @@
+ @font-face {
+  font-family: fira; /* set name */
+  src: url(fira.ttf); /* url of the font */
+  font-style:normal
+}
+
+@font-face {
+  font-family: fira; /* set name */
+  src: url(firab.ttf); /* url of the font */
+  font-weight: bold;
+}
+@font-face {
+  font-family: fira; /* set name */
+  src: url(firai.ttf); /* url of the font */
+  font-style: italic;
+}
+.start {
+   border-radius: 2%;
+   margin: 5;
+   background-color: #FCFCFC;
+   margin-inline: 3px;
+   border-radius: 5px;
+   
+}
+.searchbar{
+    float: right
+}
+html {
+    background-color: #F0F0F0;
+    font-family: "fira", "Ubuntu";
+}
+
+.whole {
+    margin-left: 5;
+    padding: 10;
+    margin-top: 10;
+    background-color: #FCFCFC;
+       border-radius: 10px;
+
+}
+
+h3{
+    font-size: x-large;
+}
+h4{
+    display:inline;
+}
+.boxed {
+    border-radius: 15%;
+    margin: 2;
+    border-width: 1;
+    border-color: black;
+    border-style: solid;;
+    display:inline;
+    padding: 1;
+}
+
+.def{
+        margin-left: 50;
+    margin-top: 20;
+    background-color: white;
+       border-radius: 10px;
+
+}
+label{
+    font-style: italic;
+    display: block;
+        color: #8E8E8E;
+}
+.notes {
+    border-radius: 15px;
+    padding: 9;
+    background-color: #F0F0F0;
+    display: block;
+
+}
+ .invis {
+  display: none;
+}
+#wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+
+}
+#output {
+  margin-left: auto;
+}
+#output table {
+  border-collapse: collapse;
+}
+
+
