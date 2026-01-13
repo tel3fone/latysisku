@@ -6,7 +6,7 @@ BAI = {"basti": "ba'i","bapli": "bai","bangu": "bau","benji": "be'i","catni": "c
 function go() {
     const value = document.getElementById("sisku").value;
     window.location.href =
-      "https://tel3fone.github.io/latysisku/" + encodeURIComponent(value);
+      "https://tel3fone.github.io/latysisku/?q=" + encodeURIComponent(value);
   }
 
 const results = jbo.filter(obj => obj.word === searchValue);
